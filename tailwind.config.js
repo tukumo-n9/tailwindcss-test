@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cyan: '#9cdbff',
+      },
+      maxWidth:{
+        custom:'60rem',
+      },
+      spacing:{
+          76: '19rem',
+      },
+    },
   },
   plugins: [],
 }
